@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:photoShape="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.lijun.circlerectimagedemo.MainActivity">
+
+    <com.example.lijun.circlerectimagedemo.XCRoundRectImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@mipmap/ic_launcher"
+        photoShape:rr_shape_type="rectangle"
+        photoShape:rr_radius="30"/>
+
+</LinearLayout>
